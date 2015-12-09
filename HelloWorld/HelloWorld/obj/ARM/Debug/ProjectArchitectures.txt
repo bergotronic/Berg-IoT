@@ -1,0 +1,1 @@
+C:\Users\lberg\Desktop\CNCY_IOT\HelloWorld\HelloWorld\HelloWorld.csproj;arm

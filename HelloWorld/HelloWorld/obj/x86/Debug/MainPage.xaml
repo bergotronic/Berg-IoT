@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="HelloWorld.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloWorld"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource BackButtonPressedForegroundThemeBrush}">
+        <Image x:ConnectionId='1' x:Name="image" HorizontalAlignment="Left" Height="297" Margin="-24,72,0,0" VerticalAlignment="Top" Width="1038" Source="Assets/small-wisconsin.jpg"/>
+        <Image x:ConnectionId='2' x:Name="image1" HorizontalAlignment="Left" Height="145" Margin="10,72,0,0" VerticalAlignment="Top" Width="283" Source="Assets/concurrency-logotype.png"/>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock" HorizontalAlignment="Left" Margin="416,89,0,0" TextWrapping="Wrap" Text="Hello World!" VerticalAlignment="Top" Height="145" Width="598" FontSize="96" Foreground="White"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock2" HorizontalAlignment="Left" Margin="33,300,0,0" TextWrapping="Wrap" Text="This is the Microsoft Modern Developer Conference hello world application!" VerticalAlignment="Top" FontSize="64" Width="884" Height="266" Foreground="Black"/>
+
+    </Grid>
+</Page>
+
